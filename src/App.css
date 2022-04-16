@@ -1,0 +1,21 @@
+:root {
+  --grayBlue: hsl(237, 18%, 59%);
+  --softRed: hsl(345, 95%, 68%);
+  --white: hsl(0, 0%, 100%);
+}
+
+.App {
+  background-color: var(--softRed);
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.Boxes {
+  display: flex;
+  gap: 3rem;
+}
